@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(52, 52, 60);
+  padding: 20px;
+  padding-top: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+form {
+  background-color: rgb(72, 94, 119);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  margin: 0 auto 30px;
+  width: 80%;
+  border-radius: 8px;
+}
+
+form label {
+  color: white;
+  font-weight: 500;
+}
+
+form select,
+form input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+form button {
+  background-color: rgb(52, 52, 60);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+form button:hover {
+  background-color: #4383b7;
+}
+
+.list {
+  background-color: rgb(72, 94, 119);
+  width: 80%;
+  margin: 0 auto 30px;
+  border-radius: 8px;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.list h2 {
+  margin-bottom: 1rem;
+}
+
+.list ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.list li {
+  background-color: rgb(52, 52, 60);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Hapus {
+  background-color: rgb(200, 60, 60);
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 20px;
+}
+
+.Hapus:hover {
+  background-color: rgb(255, 85, 85);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button1 button {
+  background-color: rgb(52, 52, 60);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.button1 button:hover {
+  background-color: #4383b7;
+}
+
+.button1 {
+  margin-top: 10px;
+}
